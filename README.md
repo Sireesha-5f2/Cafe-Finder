@@ -1,4 +1,4 @@
-# Cafe-Finder
+
 # Cafe Finder ☕
 
 A web application that helps users find cafes in any city.
@@ -13,4 +13,7 @@ Technologies Used:
 HTML
 CSS
 JavaScript
-Google Maps API
+## API Used
+This project uses the Google Maps JavaScript API to display maps and locate nearby cafes.
+
+Note: The API key is removed from this repository for security purposes.
