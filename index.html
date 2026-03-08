@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Cafe Finder</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- Header / Top Search Bar -->
+<div class="topbar">
+
+<h1 class="title">☕ Cafe Finder</h1>
+
+<div class="search-area">
+<input id="searchBox" type="text" placeholder="Enter city or place">
+<button onclick="searchPlace()">Search</button>
+</div>
+<button id="darkModeToggle" onclick="toggleDarkMode()">🌙 Dark Mode</button>
+</div>
+
+<!-- Main Layout -->
+<div class="container">
+
+<!-- Left Side Cafe List -->
+<div class="sidebar">
+
+<h2>Cafes</h2>
+<ul id="cafe-list"></ul>
+
+</div>
+
+<!-- Right Side Map -->
+<div id="map"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+<!-- Google Maps API -->
+<script async
+src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places&callback=initMap">
+</script>
+</body>
+
+</html>
